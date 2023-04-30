@@ -1,9 +1,11 @@
+/* for all class */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
 
+/* container classes */
 .container-1{
     /* background-color: aquamarine; */
     /* border: 5px solid red; */
@@ -47,40 +49,51 @@
 .col-11{width: 91.666%;}
 .col-12{width: 100%;}
 
+/* margin top classes */
 .mar-t-1{margin-top: 5px;}
 .mar-t-2{margin-top: 10px;}
 .mar-t-3{margin-top: 15px;}
 
+/* margin bottom classes */
 .mar-b-1{margin-bottom: 5px;}
 .mar-b-2{margin-bottom: 10px;}
 .mar-b-3{margin-bottom: 15px;}
 
+/* margin all classes */
 .mar-a-1{margin: 5px;}
 .mar-a-2{margin: 10px;}
 .mar-a-3{margin: 15px;}
 
+/* margin left classes */
 .mar-l-1{margin-left: 5px;}
 .mar-l-2{margin-left: 10px;}
 .mar-l-3{margin-left: 15px;}
 
+/* padding all classees */
 .pad-a-1{padding: 5px;}
 .pad-a-2{padding: 10px;}
 .pad-a-3{padding: 15px;}
 
+/* padding left and right classes */
 .pad-lr-1{padding-left: 50px; padding-right: 50px;}
 .pad-lr-2{padding-left: 75px; padding-right: 75px;}
 .pad-lr-3{padding-left: 80px; padding-right: 80px;}
 
+/* font size classes */
 .font-size-1{font-size: 10px;}
 .font-size-2{font-size: 13px;}
 .font-size-3{font-size: 15px;}
 
-
+/* border class */
 .border-1{border: 1px solid gray;}
 
+/* align left */
 .align-l{text-align: left;}
+
+/* align right */
 .align-r{text-align: right;}
 
+/* button classes */
 .button-1{
     height: 30px;
     width: 70px;
@@ -94,6 +107,7 @@
     color: rgba(69, 69, 185, 0.808);
 }
 
+/* div center */
 .div-center{
     display: flex;
     justify-content: center;
