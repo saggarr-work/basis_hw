@@ -9,12 +9,12 @@
 .container{
     width: 90%;
     margin: auto;
-    border: 2px solid rgb(207, 21, 21);
+    /* border: 2px solid rgb(207, 21, 21); */
 }
 .container-fluid{
     width: 100%;
     margin: auto;
-    border: 2px solid rgb(4, 4, 238);
+    /* border: 2px solid rgb(4, 4, 238); */
 }
 
 /* display divided into 12 division */
@@ -44,14 +44,14 @@
 
 /* all classes starts with "col-" */
 [class*="col-"]{
-    border: 2px solid rgb(25, 158, 219);
+    /* border: 2px solid rgb(25, 158, 219); */
     float: left;
     /* text-align: center; */
 }
 
 /* all classes starts with "row" */
 [class*="row"]{
-    border: 2px solid rgb(14, 13, 13);
+    /* border: 2px solid rgb(14, 13, 13); */
     width: 100%;
     overflow: hidden;
 }
