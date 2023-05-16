@@ -75,6 +75,7 @@
     transform-origin: left bottom;
     transform: skewY(7deg);
     border-bottom-left-radius: 80px;
+    background: inherit;
 }   
 .sd-imgk::before{
     position: absolute;
