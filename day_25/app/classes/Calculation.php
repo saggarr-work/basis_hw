@@ -1,5 +1,5 @@
 <?php
-    // namespace App\classes;
+    namespace App\classes;
 
     class Calculation{
         public function addition($num_1, $num_2){
