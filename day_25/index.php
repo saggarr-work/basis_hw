@@ -1,7 +1,7 @@
 <?php
     require_once "app/classes/Calculation.php";
 
-    // use App\classes\Calculation;
+    use App\classes\Calculation;
 
     $get_calculation = new Calculation();
 
