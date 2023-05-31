@@ -18,8 +18,8 @@
     ];
 
     $keys = array_keys($person);
-    $values = array_values($person);
+    // $values = array_values($person);
     for($x = 0; $x < count($keys); $x++){
-        echo $person[$keys[$values[$x]]] . "<br>";
+        echo $keys[$x] . " " . $person[$keys[$x]] . "<br>";
     }
 ?>
