@@ -1,3 +1,3 @@
 <?php
-    header("location: routes.php?name=sagarf")
+    header("location: routes.php?name=sagart");
 ?>
