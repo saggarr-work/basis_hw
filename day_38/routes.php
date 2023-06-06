@@ -7,7 +7,11 @@
     
 
     if(isset($_GET["page"])){
-        include "views/includes/header.php";
+
+        if("login" != ($_GET["page"])){
+            include "views/includes/header.php";
+        }
+        
 
         if("home" == ($_GET["page"])){
             // include "views/home.php";
@@ -43,4 +47,3 @@
     else{
         header("location: routes.php?page=home");
     }
-?>
