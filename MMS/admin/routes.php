@@ -3,7 +3,8 @@
     // header include 
     include "views/includes/header.php";
 
-    if(isset($_GET)){
+    if(isset($_GET["page"])){
+
         if("login" == ($_GET["page"])){
             include "views/login.php";
         }
@@ -55,6 +56,8 @@
         else{
             echo "error 404";
         }
+    }else{
+        echo "error 404";
     }
 
     // footer include 
