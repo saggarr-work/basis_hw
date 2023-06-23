@@ -15,8 +15,8 @@
                 </a>
                 <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav">
-                        <a class="nav-link" href="{{route('product.add')}}">Add/Insert Product</a>
-                        <a class="nav-link" href="layout-sidenav-light.html">Manage Product</a>
+                        <a class="nav-link" href="{{route('product.create')}}">Add/Insert Product</a>
+                        <a class="nav-link" href="{{route('products')}}">Manage Product</a>
                     </nav>
                 </div>
                 <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseSlider" aria-expanded="false" aria-controls="collapseLayouts">

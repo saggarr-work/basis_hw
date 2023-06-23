@@ -50,5 +50,6 @@ Route::get('/password', [PasswordController::class, 'index'])->name('password');
 Route::get('/register', [RegisterController::class, 'index'])->name('register');
 Route::get('/tables', [TableController::class, 'index'])->name('table');
 
-Route::get('/add/product', [ProductController::class, 'index'])->name('product.add');
+Route::get('/product/create', [ProductController::class, 'create'])->name('product.create');
 Route::post('/product/store', [ProductController::class, 'store'])->name('product.store');
+Route::get('/products', [ProductController::class, 'index'])->name('products');

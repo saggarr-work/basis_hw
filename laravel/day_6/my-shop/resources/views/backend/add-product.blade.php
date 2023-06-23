@@ -3,6 +3,7 @@
 @section('content')
     <section>
         <h1 class="text-center pt-3">Add Product</h1>
+        <h3 class="text-center text-success">{{session()->get('notification')}}</h3>
         <div class="container d-flex justify-content-center py-4">
 
             <form class="col-md-6" action="{{route('product.store')}}" method="POST">
